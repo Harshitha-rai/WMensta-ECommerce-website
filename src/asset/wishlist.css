@@ -1,0 +1,120 @@
+.wishlist-container {
+    display: flex;
+    background-color: beige;
+    flex-wrap: wrap;
+}
+.wishlist-container-box {
+    height: 400px;
+    width:245px;
+    background-color: white;
+    margin: 15px auto;
+    box-shadow: 2px 2px rgb(216, 215, 215);
+}
+.wishlist-container-box:hover {
+    box-shadow: 3px 3px rgb(216, 215, 215);
+    transform: scale(1.01, 1.01);
+}
+
+.fav-icon {
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    color: white;
+}
+.fav-icon:hover {
+    color: red;
+}
+.wishlist-box-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px;
+    overflow: hidden;
+}
+.wishlist-img-container {
+    height: 290px;
+    width:100%;
+    position: relative;
+}
+.wishlist-img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.wishlist-fav-icon {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    color: white;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.wishlist-fav-icon:hover {
+    color: red;
+}
+.wishlist-box-content h4 {
+    color: rgb(36, 35, 35);
+}
+.wishlist-box-discription{
+    color: rgb(117, 116, 116);
+    font-size: 0.9rem;
+}
+.wishlist-box-rate {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(36, 35, 35);;
+}
+.wishlist-cart-btn {
+    width: 100%;
+    padding: 4px;
+    border: 2px solid rgb(247, 214, 174);
+    background-color: white;
+    border-radius: 5px;
+}
+.wishlist-cart-btn:hover {
+    background-color: rgb(235, 196, 149);
+}
+.no-wishlist-item {
+    background-color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.no-wishlist-item-icon {
+    color: rgb(207, 148, 158);
+    font-size: 5rem;
+}
+.no-wishlist-item p{
+    color: rgb(107, 105, 105);
+    font-size: 0.85rem;
+    margin-top: 7px;
+}
+@media screen and (max-width: 600px){
+    .wishlist-container-box {
+        height: 300px; 
+        width: 190px;
+        margin: 5px auto;
+        
+    }
+    .wishlist-img-container {
+        height: 190px;
+        width:100%;
+        position: relative;
+    }
+    .wishlist-container-box img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .wishlist-box-discription{
+        font-size: 0.7rem;
+    }
+    .wishlist-box-rate {
+        font-size: 0.8rem;
+        
+    }
+}

@@ -1,0 +1,116 @@
+
+.main {
+    height: 100vh;
+    
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.card-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-logo img {
+    height: 100px;
+    width: 60px;
+    object-fit: cover;
+}
+.card-logo h1 {
+    font-size: 2.7rem;
+    color: rgb(185, 140, 25);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.main-card {
+    background: rgb(249,234,188);
+    background-color: linear-gradient(90deg, rgba(249,234,188,1) 0%, rgba(242,198,175,1) 100%);
+    background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+    border-radius: 20px;
+    box-shadow: 3px 3px  rgb(228, 221, 193);
+}
+.main-card:hover {
+    box-shadow: 4px 4px  rgb(228, 221, 193);
+    transform: scale(1.01, 1.01);
+}
+.card-content {
+    width: 50%;
+}
+.card-content h1 {
+    font-size: 1.5rem;
+    padding: 10px;
+    color: rgb(71, 70, 70);
+}
+.card-content p {
+    font-size: 0.8rem; 
+    margin: 10px 10px; 
+    color: rgb(71, 71, 71); 
+}
+.card-content .store {
+    margin-top: 30px;
+    
+}
+.card-img {
+    height: 190px;
+    width: 160px;
+    /* border-radius: 50% 30px; */
+}
+.card-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 40% 10% 40% 10%;
+}
+
+/* https://images.pexels.com/photos/11491085/pexels-photo-11491085.jpeg?auto=compress&cs=tinysrgb&w=600   */
+@media only screen and (max-width:600px){
+    .card-logo {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-logo img {
+        height: 90px;
+        width: 80px;
+        object-fit: cover;
+    }
+    .card-logo h1 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+    .main-card {
+        width: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .card-content {
+        width:40%;
+    }
+    .card-content h1 {
+        font-size: 1rem;
+        font-weight: bold;
+        
+    }
+    .card-content p {
+        font-size: 0.85rem; 
+       
+    }
+    .card-img {
+        height: 190px;
+        width: 100px;
+    }
+    .card-img img {
+        height: 100%;
+        width: 100px;
+        object-fit: cover;
+    }
+    .main-card:hover {
+        box-shadow: 4px 4px  rgb(228, 221, 193);
+        transform: scale(1.01, 1.01);
+    }
+
+}

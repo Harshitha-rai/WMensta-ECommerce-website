@@ -1,0 +1,131 @@
+.product-main-content {
+    display: flex;
+    margin: 30px;
+    gap:40px;
+}
+.display-image {
+    height: 640px;
+    width: 700px;
+    overflow: hidden;
+}
+.display-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: ease 0.4s;
+    display: block;
+    cursor: zoom-in;
+}
+.display-image img:hover {
+    transform: scale(1.1);
+}
+.product-content {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.product-content .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.product-name {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.product-content .description {
+    font-size: 0.85rem;
+    color: rgb(85, 84, 84);
+}
+.product-content .price {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.product-size {
+    display: flex;
+    gap: 10px;
+}
+.product-size-content {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    font-size: 0.9rem;
+}
+.product-size .size {
+    border: 1px solid rgb(218, 215, 215);
+    background-color: white;
+    width: 40px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    gap: 10px;
+    cursor: pointer;
+    outline: none;
+}.active {
+    border: 1px solid rgb(219, 77, 101);
+    color: rgb(196, 57, 80);
+}
+.product-size .size:hover {
+    color: rgb(196, 57, 80);
+}
+.shopping-btn {
+    display: flex;
+    gap:20px;
+}
+.btn {
+    width: 180px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+.add-btn {
+    background-color: black;
+    color: white;
+}
+.add-btn:hover {
+    background-color: rgb(58, 57, 57);
+}
+.wishlist-btn {
+    border: 2px solid rgb(173, 80, 111);
+    background-color: white;
+    color: rgb(173, 80, 111);
+}
+.wishlist-btn:hover {
+    background-color: rgb(173, 80, 111);
+    color: white;
+}
+.product-content .product-detail p{
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(87, 85, 85);
+}
+
+@media screen and (max-width:600px) {
+    .product-main-content {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        gap:20px;
+    }
+    .display-image {
+        height: 340px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .product-content .name {
+        font-size: 1rem;
+    }
+    .product-content .product-detail h4{
+        font-size: 0.9rem;
+    }
+    .product-content .product-detail p{
+        font-size: 0.8rem;
+    }
+}
