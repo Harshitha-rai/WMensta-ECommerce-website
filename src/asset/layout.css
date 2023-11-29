@@ -1,7 +1,7 @@
 
 /* Layout */
 .container {
-    background-color: beige;
+    background-color: rgb(253, 251, 245);
     display: flex;
     flex-wrap: wrap;
     /* position: fixed; */

@@ -23,12 +23,12 @@ const Header = () => {
                     <Link to='/women' style={{textDecoration: 'none', marginTop:'24px'}}>
                         <span className='content-title'>Women</span>
                     </Link>
-                </div>
+                </div> 
                 <div className='nav-logo'>
                     <img src={Logo} alt='logo'/>
                 </div>
                 <div className='nav-content2'>
-                    <Link to='/login' style={{textDecoration:'none'}}><button className='content-cart'>{<PermIdentityOutlinedIcon />}Sign in</button></Link>
+                    <Link to='/login' style={{textDecoration:'none'}}><span className='content-cart'>{<PermIdentityOutlinedIcon />}Sign in</span></Link>
                     <Link to='/wishlist' style={{textDecoration:'none'}}><span className='content-cart'>{<FavoriteBorderOutlinedIcon />}Wishlist</span></Link>
                     <Link to='/cart' style={{textDecoration:'none'}}><span className='content-cart'>{<ShoppingBagOutlinedIcon />}Bag</span></Link>
                     <div className='nav-cart-count'>{getTotalCartItems()}</div>
