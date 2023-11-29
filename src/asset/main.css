@@ -27,14 +27,12 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .main-card {
-    background: rgb(249,234,188);
-    background-color: rgb(238, 204, 140);
+    
     background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
     border-radius: 20px;
-    box-shadow: 3px 3px  rgb(228, 221, 193);
+    box-shadow: 1px 1px 2px 2px rgb(237, 237, 248);
 }
 .main-card:hover {
-    box-shadow: 4px 4px  rgb(228, 221, 193);
     transform: scale(1.01, 1.01);
 }
 .card-content {
