@@ -27,7 +27,7 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .main-card {
-    
+    background-color: rgb(250, 239, 212);
     background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
     border-radius: 20px;
     box-shadow: 1px 1px 2px 2px rgb(237, 237, 248);
