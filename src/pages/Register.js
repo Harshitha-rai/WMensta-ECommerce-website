@@ -59,7 +59,7 @@ const Register = () => {
         <Header />
         <div className='login-container'>
         {Object.keys(formErrors).length === 0 && isSubmit ? (
-            <div className="success-message">Signed up in successfully</div>)
+            <div className="success-message">Signed up successfully</div>)
             : ""}
             <div className='login-container-detail'>
                 <div className='login-img'>
