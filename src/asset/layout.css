@@ -45,7 +45,7 @@
     object-fit: cover;
 }
 .box-content h4 {
-    color: rgb(36, 35, 35);
+    color: rgb(46, 46, 46);
 }
 .box-discription {
     color: rgb(117, 116, 116);
@@ -75,8 +75,17 @@
         
     }
     .container-box img {
-        height: 195px;
+        height: 205px;
         width: 100%;
         object-fit: cover;
+    }
+    .box-content h4 {
+        font-size: 0.81rem;
+    }
+    .box-discription {
+        font-size: 0.66rem;
+    }
+    .box-rate {
+        font-size: 0.75rem;
     }
 }
