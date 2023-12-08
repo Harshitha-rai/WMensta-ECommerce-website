@@ -44,12 +44,12 @@ const Register = () => {
         if (!values.password) {
             errors.password = "Password is required!";
         } else if (!regexP.test(values.password)) {
-            errors.password = "8 characters 1 lowercase 1 uppercase 1 number";
+            errors.password = "8 characters atleast 1 lowercase 1 uppercase 1 number";
         }
         if (!values.confirmPassword) {
             errors.confirmPassword = "Confirm password is required!";
         }else if (values.password !== values.confirmPassword) {
-            errors.confirmPassword = "Password doesn't match"
+            errors.confirmPassword = "Password doesn't match!"
         }
         return errors;
     }

@@ -4,6 +4,7 @@
     padding:30px;
     justify-content: space-evenly; 
     background-color: rgb(255, 254, 252);
+    height: 100vh;
 }
 .cart-content-product {
     display: flex;
@@ -110,7 +111,7 @@
     background-color: rgb(81, 81, 163);
 }
 .no-item-cart {
-    height: 400px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -1,8 +1,6 @@
 .footer-container {
     height: 400px;
     background-color: rgb(248, 240, 225);
-    /* position: fixed; */
-    /* background-color: rgb(238, 236, 236); */
 }
 .footer-content {
     display: flex;

@@ -2,6 +2,7 @@
     display: flex;
     background-color: rgb(250, 243, 250);
     flex-wrap: wrap;
+    height: 100vh;
 }
 .wishlist-container-box {
     height: 400px;
@@ -78,7 +79,7 @@
 }
 .no-wishlist-item {
     background-color: white;
-    height: 500px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
