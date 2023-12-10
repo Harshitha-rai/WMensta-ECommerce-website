@@ -1,0 +1,43 @@
+.category-banner-container {
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+.cat-banner-image {
+    flex: 1.7;
+    height: 100%;
+}
+.cat-banner-image img {
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.cat-banner-description {
+    flex: 2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 218, 185);
+}
+.cat-banner-text {
+    text-align: center;
+}
+.cat-banner-text p{
+    font-size: 2rem;
+    color: rgb(116, 78, 33);
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+@media screen and (max-width: 600px){
+    .category-banner-container {
+        height: 200px;
+    }
+    .cat-banner-text p{
+        font-size: 1rem;
+    }
+    .cat-banner-image {
+        flex: 2;
+    }
+}

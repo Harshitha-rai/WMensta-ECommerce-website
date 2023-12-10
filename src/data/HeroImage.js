@@ -1,6 +1,5 @@
 import HeroImage1 from '../images/women/hero1.png';
 import HeroImage2 from '../images/women/womenhero4.jpg';
-// import HeroImage3 from '../images/women/menhero2.jpg';
 import HeroImage3 from '../images/women/HeroImage.jpg';
 import HeroImage4 from '../images/women/womenhero5.jpg';
 

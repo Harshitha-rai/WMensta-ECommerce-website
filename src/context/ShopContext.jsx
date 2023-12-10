@@ -24,9 +24,11 @@ const ShopContextProvider = (props) => {
     const [cartSubTotal, setCartSubTotal] = useState(0);
     const [psize , setPsize] = useState();
 
-    const handleClick = (curSize, itemId) => {
+    const [categorystate, setcategory] = useState("");
+    const [categoryType, setCategoryType] = useState("");
+
+    const handleClick = (curSize) => {
         setPsize(curSize);
-        
     }
 
     const addToCart = (itemId,itemPrice) => {
@@ -77,7 +79,7 @@ const ShopContextProvider = (props) => {
         ))
     }
 
-    const contextValue ={ProductDB, cartItems, psize, handleClick, addToCart, removeFromCart, deleteCartProduct, cartSubTotal, getTotalCartItems, addToWishlist, wishlistItem, removeFromWishlist, getTotalWishlistItems}
+    const contextValue ={ProductDB, cartItems, psize, handleClick, addToCart, removeFromCart, deleteCartProduct, cartSubTotal, getTotalCartItems, addToWishlist, wishlistItem, removeFromWishlist, getTotalWishlistItems, categorystate, setcategory, categoryType, setCategoryType}
     return (
     <ShopContext.Provider value={contextValue}>
         {props.children}

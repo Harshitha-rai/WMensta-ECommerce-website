@@ -249,7 +249,7 @@ export const ProductDB = [
         price: "1999",
         imgURL: Shirt1,
         productSize: ['XS','S','M','L','XL','XXL'],
-        productCategory: "top"
+        productCategory: "shirt"
     },
     {
         id: 22,
@@ -259,7 +259,7 @@ export const ProductDB = [
         price: "1699",
         imgURL: Shirt2,
         productSize: ['XS','S','M','L','XL','XXL'],
-        productCategory: "top"
+        productCategory: "shirt"
     },
     {
         id: 23,
@@ -269,7 +269,7 @@ export const ProductDB = [
         price: "1599",
         imgURL: Shirt3,
         productSize: ['XS','S','M','L','XL','XXL'],
-        productCategory: "top"
+        productCategory: "shirt"
     },
     {
         id: 24,
@@ -279,7 +279,7 @@ export const ProductDB = [
         price: "1799",
         imgURL: Shirt4,
         productSize: ['XS','S','M','L','XL','XXL'],
-        productCategory: "top"
+        productCategory: "shirt"
     },
     {
         id: 25,
@@ -289,7 +289,7 @@ export const ProductDB = [
         price: "1699",
         imgURL: Shirt5,
         productSize: ['XS','S','M','L','XL','XXL'],
-        productCategory: "top"
+        productCategory: "shirt"
     },
     {
         id: 26,
@@ -299,7 +299,7 @@ export const ProductDB = [
         price: "2599",
         imgURL: MenDenim1,
         productSize: ['XS','S','M','L','XL','XXL'],
-        productCategory: "denim"
+        productCategory: "mendenim"
     },
     {
         id: 27,
@@ -309,7 +309,7 @@ export const ProductDB = [
         price: "2599",
         imgURL: MenDenim2,
         productSize: ['XS','S','M','L','XL','XXL'],
-        productCategory: "denim"
+        productCategory: "mendenim"
     },
     {
         id: 28,
@@ -319,7 +319,7 @@ export const ProductDB = [
         price: "2799",
         imgURL: MenDenim3,
         productSize: ['XS','S','M','L','XL','XXL'],
-        productCategory: "denim"
+        productCategory: "mendenim"
     },
     {
         id: 29,
@@ -329,7 +329,7 @@ export const ProductDB = [
         price: "2499",
         imgURL: MenDenim4,
         productSize: ['XS','S','M','L','XL','XXL'],
-        productCategory: "denim"
+        productCategory: "mendenim"
     },
     {
         id: 30,
@@ -339,7 +339,7 @@ export const ProductDB = [
         price: "2699",
         imgURL: MenDenim5,
         productSize: ['XS','S','M','L','XL','XXL'],
-        productCategory: "denim"
+        productCategory: "mendenim"
     },
     {
         id: 31,
@@ -349,7 +349,7 @@ export const ProductDB = [
         price: "8599",
         imgURL: MenFormal1,
         productSize: ['XS','S','M','L','XL','XXL'],
-        productCategory: "dress"
+        productCategory: "formal"
     },
     {
         id: 32,
@@ -359,7 +359,7 @@ export const ProductDB = [
         price: "6799",
         imgURL: MenFormal2,
         productSize: ['XS','S','M','L','XL','XXL'],
-        productCategory: "dress"
+        productCategory: "formal"
     },
     {
         id: 33,
@@ -369,7 +369,7 @@ export const ProductDB = [
         price: "7899",
         imgURL: MenFormal3,
         productSize: ['XS','S','M','L','XL','XXL'],
-        productCategory: "dress"
+        productCategory: "formal"
     },
     {
         id: 34,
@@ -379,7 +379,7 @@ export const ProductDB = [
         price: "9899",
         imgURL: MenFormal4,
         productSize: ['XS','S','M','L','XL','XXL'],
-        productCategory: "dress"
+        productCategory: "formal"
     },
     {
         id: 35,
@@ -389,7 +389,7 @@ export const ProductDB = [
         price: "8899",
         imgURL: MenFormal5,
         productSize: ['XS','S','M','L','XL','XXL'],
-        productCategory: "dress"
+        productCategory: "formal"
     },
     {
         id: 36,

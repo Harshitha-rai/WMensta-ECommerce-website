@@ -5,6 +5,16 @@
     display: flex;
     flex-wrap: wrap;
 }
+.category-type {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(87, 87, 87);
+    background-color: rgb(250, 243, 250);
+}
+.category-type p {
+    padding: 10px 10px 0px 10px;
+}
 .container-box {
     height: 380px;
     width:245px;
@@ -85,5 +95,8 @@
     }
     .box-rate {
         font-size: 0.75rem;
+    }
+    .category-type {
+        font-size: 0.8rem;
     }
 }

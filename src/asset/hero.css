@@ -10,22 +10,20 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 500px;
-    opacity: 0;
+    height: 100%;
+    display: flex;
     transform: translateX(-50%);
-    transition: ease 1000ms;
+    transition: all 1s ease;
     overflow: hidden;
-    
 }
   
 .slide img {
     width: 100%;
-    height: 500px;
+    height: 100%;
     object-fit: cover;
 }
   
 .current {
-    opacity: 1;
     transform: translateX(0);
 }
   
@@ -38,6 +36,11 @@
     padding: 3rem;
     font-size: 1.5rem;
     text-align: center;
+    /* font-weight: bold; */
+    
+}
+.content p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
   

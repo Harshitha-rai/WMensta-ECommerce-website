@@ -8,6 +8,8 @@ import './style.css';
 import Item from './pages/Item';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Home from './pages/Home';
+import CategoryProduct from './pages/CategoryProduct';
 
 const App = () => {
   return (
@@ -15,9 +17,13 @@ const App = () => {
         <BrowserRouter>
     
           <Routes>
-            <Route path='/' element={<Main />} />
-              <Route path='/Men' element={<Product category="men" />} />
-              <Route path='/Women' element={<Product category="women"/>} />
+              <Route path='/' element={<Main />} />
+              <Route path='/men' element={<Home category="men" />} />
+              <Route path='/women' element={<Home category="women"/>} />
+
+              <Route path='/category' element={<CategoryProduct />} />
+              <Route path='/product' element={<Product />} />
+              
               <Route path='/item' element={<Item/>}>
                 <Route path=':itemId' element={<Item/>}/>
               </Route>

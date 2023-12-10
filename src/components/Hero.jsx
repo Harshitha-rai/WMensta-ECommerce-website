@@ -31,17 +31,16 @@ const Hero = () => {
     return (
       <div className="slider">
         
-        {HeroImage.map((slide, index) => {
+        {HeroImage?.map((slide, index) => {
           return (
-            <div
-              className={index === currentSlide ? "slide current" : "slide"} key={index}>
+            <div className={index === currentSlide ? "slide current" : "slide"} key={index}>
               {index === currentSlide && (
-                <div>
+                <>
                   <img src={slide.imgURL} alt="slide" className="image" />
                   <div className="content">
                     <p>{slide.description}</p>
                   </div>
-                </div>
+                </>
               )}
             </div>
           );

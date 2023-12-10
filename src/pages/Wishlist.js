@@ -15,7 +15,7 @@ const Wishlist = () => {
 
     {getTotalWishlistItems() > 0 ? 
     <div className='wishlist-container'>
-      {ProductDB.map((item) => {
+      {ProductDB?.map((item) => {
       if(wishlistItem[item.id] > 0) {
         return (
           <div key={item.id} className='wishlist-container-box'>

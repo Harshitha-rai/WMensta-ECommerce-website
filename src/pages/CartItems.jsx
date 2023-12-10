@@ -16,7 +16,7 @@ const CartItems = () => {
       <div className='cart-container'>
         <div className='cart-content-product'>
           <div className='cart-product-item'>
-          {ProductDB.map((item) => {
+          {ProductDB?.map((item) => {
             if(cartItems[item.id] > 0) {
               return (
                 <div  key = {item.id} className='cart-product'>

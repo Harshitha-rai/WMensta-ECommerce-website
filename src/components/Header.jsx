@@ -6,6 +6,7 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined';
 import { ShopContext } from '../context/ShopContext';
+import SearchIcon from '@mui/icons-material/Search';
 
 const Header = () => {
     const {getTotalCartItems} = useContext(ShopContext);
@@ -27,7 +28,9 @@ const Header = () => {
                 <div className='nav-logo'>
                     <img src={Logo} alt='logo'/>
                 </div>
+        
                 <div className='nav-content2'>
+                    <input className='nav-search-bar' type='text' placeholder='Search for products'/>
                     <Link to='/login' style={{textDecoration:'none'}}><span className='content-cart'>{<PermIdentityOutlinedIcon />}Sign in</span></Link>
                     <Link to='/wishlist' style={{textDecoration:'none'}}><span className='content-cart'>{<FavoriteBorderOutlinedIcon />}Wishlist</span></Link>
                     <Link to='/cart' style={{textDecoration:'none'}}><span className='content-cart'>{<ShoppingBagOutlinedIcon />}Bag</span></Link>
