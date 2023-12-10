@@ -8,6 +8,7 @@ import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined';
 import { ShopContext } from '../context/ShopContext';
 import SearchIcon from '@mui/icons-material/Search';
 
+
 const Header = () => {
     const {getTotalCartItems} = useContext(ShopContext);
     return (
@@ -30,8 +31,10 @@ const Header = () => {
                 </div>
         
                 <div className='nav-content2'>
-                    <input className='nav-search-bar' type='text' placeholder='Search for products'/>
+                    
+                    {/* <input className='nav-search-bar' type='text' placeholder='Search for products'/> */}
                     <Link to='/login' style={{textDecoration:'none'}}><span className='content-cart'>{<PermIdentityOutlinedIcon />}Sign in</span></Link>
+                    <span className='content-cart'>{<SearchIcon />}Search</span> 
                     <Link to='/wishlist' style={{textDecoration:'none'}}><span className='content-cart'>{<FavoriteBorderOutlinedIcon />}Wishlist</span></Link>
                     <Link to='/cart' style={{textDecoration:'none'}}><span className='content-cart'>{<ShoppingBagOutlinedIcon />}Bag</span></Link>
                     <div className='nav-cart-count'>{getTotalCartItems()}</div>

@@ -54,14 +54,15 @@
     }
     .banner-description {
         position: absolute;
-        top:60%;
-        left: 30%;
+        top:70%;
+        left: 35%;
     }
     .banner-description p{
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         font-weight: bold;
     }
     .banner-description button {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+        padding: 7px;
     }
 }
