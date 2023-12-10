@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 600px){
     .banner-container {
-        height: 400px;
+        height: 500px;
     }
     .banner {
         height: 350px;
@@ -58,7 +58,7 @@
         left: 35%;
     }
     .banner-description p{
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: bold;
     }
     .banner-description button {
