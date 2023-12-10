@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 600px){
     .banner-container {
-        height: 500px;
+        height: 400px;
     }
     .banner {
         height: 350px;
