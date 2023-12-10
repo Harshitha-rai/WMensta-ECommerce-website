@@ -25,14 +25,14 @@
 }
 .cat-banner-text p{
     font-size: 2rem;
-    color: rgb(107, 73, 32);
+    color: rgb(129, 82, 25);
     font-family:'Courier New', Courier, monospace;
 }
 
 
 @media screen and (max-width: 600px){
     .category-banner-container {
-        height: 220px;
+        height: 230px;
     }
     .cat-banner-text p{
         font-size: 1rem;
