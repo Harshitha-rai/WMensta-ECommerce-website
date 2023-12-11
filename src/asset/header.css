@@ -97,8 +97,8 @@
         width: 100%;
     }
     .nav-title h2 {
-        font-size: 0.85rem;
-        margin-top: 25px;
+        font-size: 0.76rem;
+        margin-top: 27px;
     }
     .content-title {
         font-size: 0.7rem;
@@ -115,7 +115,7 @@
     }
     .nav-content2 {
         display: flex;
-        gap: 8px;
+        gap: 10px;
         font-size: 0.4rem;
         
     }
