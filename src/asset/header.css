@@ -73,6 +73,11 @@
     font-weight: bold;
 
 }
+.search-product {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
 .nav-cart-count {
     height: 15px;
     width:15px;

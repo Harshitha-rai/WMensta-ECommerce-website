@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import Logo from '../images/Wmlogo.jpg';
 import { Link } from 'react-router-dom';
 import '../asset/header.css';
@@ -7,11 +7,15 @@ import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined';
 import { ShopContext } from '../context/ShopContext';
 import SearchIcon from '@mui/icons-material/Search';
+import SearchProduct from './SearchProduct';
 
 
 const Header = () => {
+    const [searchModal, setSearchModal] = useState(false);
     const {getTotalCartItems} = useContext(ShopContext);
+    
     return (
+        <>
         <div className='header'>
             <div className='navbar'>
                 <div className='nav-content1'>
@@ -33,14 +37,16 @@ const Header = () => {
                 <div className='nav-content2'>
                     
                     {/* <input className='nav-search-bar' type='text' placeholder='Search for products'/> */}
+                    <span className='search-product'>{<SearchIcon onClick={() => setSearchModal(true)}/>}</span> 
                     <Link to='/login' style={{textDecoration:'none'}}><span className='content-cart'>{<PermIdentityOutlinedIcon />}Sign in</span></Link>
-                    <span className='content-cart'>{<SearchIcon />}Search</span> 
                     <Link to='/wishlist' style={{textDecoration:'none'}}><span className='content-cart'>{<FavoriteBorderOutlinedIcon />}Wishlist</span></Link>
                     <Link to='/cart' style={{textDecoration:'none'}}><span className='content-cart'>{<ShoppingBagOutlinedIcon />}Bag</span></Link>
                     <div className='nav-cart-count'>{getTotalCartItems()}</div>
                 </div>
             </div>
         </div>
+        {searchModal && <SearchProduct setSearchModal={setSearchModal}/>}
+        </>
     )
 }
 
