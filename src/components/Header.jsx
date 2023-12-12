@@ -37,7 +37,9 @@ const Header = () => {
                 <div className='nav-content2'>
                     
                     {/* <input className='nav-search-bar' type='text' placeholder='Search for products'/> */}
-                    <span className='search-product'>{<SearchIcon onClick={() => setSearchModal(true)}/>}</span> 
+                    <div className='search-product'>
+                        <span>{<SearchIcon style={{fontSize:'17px'}} onClick={() => setSearchModal(true)}/>}</span>
+                    </div>
                     <Link to='/login' style={{textDecoration:'none'}}><span className='content-cart'>{<PermIdentityOutlinedIcon />}Sign in</span></Link>
                     <Link to='/wishlist' style={{textDecoration:'none'}}><span className='content-cart'>{<FavoriteBorderOutlinedIcon />}Wishlist</span></Link>
                     <Link to='/cart' style={{textDecoration:'none'}}><span className='content-cart'>{<ShoppingBagOutlinedIcon />}Bag</span></Link>
