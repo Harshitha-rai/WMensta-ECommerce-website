@@ -54,7 +54,7 @@
 .search-product {
     height: 40px;
     width: 40px;
-    background-color: rgb(248, 237, 223);
+    background-color: rgb(252, 244, 235);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,15 +102,9 @@
         font-size: 0.4rem;
         
     }
-    .nav-content2 .nav-search-bar {
-        margin-top: 10px;
-        padding: 2px;
-        height: 15px;
-        width: 50px;
-        font-size: 0.4rem;
-    }
-    .nav-content2 .nav-search-bar::placeholder{
-        font-size: 0.4rem;
+    .search-product {
+        height: 30px;
+        width: 30px;
     }
     .nav-cart-count {
         height: 12px;
@@ -126,12 +120,6 @@
     .nav-content2 {
         display: flex;
         gap: 15px;    
-    }
-    .nav-content2 .nav-search-bar {
-        height: 20px;
-        width: 100px;
-        margin-top: 10px;
-        font-size: 0.6rem;
     }
     .nav-cart-count {
         margin-left: -25px;

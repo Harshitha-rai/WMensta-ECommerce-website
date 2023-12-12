@@ -14,7 +14,6 @@
     margin: 10px 0px;
 }
 .category-box {
-    /* border-radius: 50%; */
     border: 4px solid rgb(252, 232, 209);
     height: 220px;
     width: 200px;
@@ -69,4 +68,14 @@
         font-size: 0.5rem;
     }
     
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .category-box {
+        height: 200px;
+        width: 150px;
+    }
+    .category-image {
+        height: 120px;
+        width: 120px;
+    }
 }
