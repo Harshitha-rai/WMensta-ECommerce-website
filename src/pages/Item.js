@@ -10,10 +10,10 @@ const Item = () => {
     const {ProductDB} = useContext(ShopContext);
     const {itemId} = useParams();
     const item = ProductDB.find((e) => e.id === Number(itemId));
-    console.log(item)
+    console.log(item);
   return (
     <div>
-        <Breadcrum item={item}/>
+        <Breadcrum item={item} />
         <ProductDisplay item={item} />
     </div>
   )
